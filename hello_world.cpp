@@ -1,4 +1,8 @@
 #include <iostream>
+#include <string>
 using namespace std;
-cout << "Hello World!";
+
+string str;
+cout << "enter your username:"; cin >> str;
+cout << "hello world from " << str;
 return 0;
